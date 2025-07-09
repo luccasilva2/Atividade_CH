@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>A Corrida Armamentista e o Medo Nuclear</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header class="container fade-in-up">
+        <h1>A Corrida Armamentista e o Medo Nuclear</h1>
+        <p>Este site educativo mostra o crescimento do arsenal nuclear dos Estados Unidos e da União Soviética ao longo das décadas da Guerra Fria, com conteúdo interativo e animado para facilitar o aprendizado.</p>
+    </header>
+
+    <section class="container fade-in-up" id="chart-section">
+        <h2>Comparativo do Arsenal Nuclear (1950–1990)</h2>
+        <div class="buttons">
+            <button id="toggleUSA" class="btn usa active">Mostrar EUA</button>
+            <button id="toggleUSSR" class="btn ussr active">Mostrar URSS</button>
+        </div>
+        <canvas id="nuclearChart"></canvas>
+    </section>
+
+    <section class="container fade-in-up" id="events-section">
+        <h2>Eventos Importantes da Guerra Fria</h2>
+        <div class="timeline">
+            <div class="event-card">
+                <h3>Crise dos Mísseis de Cuba (1962)</h3>
+                <p>Momento crítico da Guerra Fria em que o mundo esteve à beira de uma guerra nuclear.</p>
+            </div>
+            <div class="event-card">
+                <h3>Programa Star Wars (1983)</h3>
+                <p>Iniciativa dos EUA para desenvolver um sistema de defesa antimísseis no espaço.</p>
+            </div>
+            <div class="event-card">
+                <h3>Queda do Muro de Berlim (1989)</h3>
+                <p>Símbolo do fim da Guerra Fria e da divisão entre Leste e Oeste.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container fade-in-up" id="curiosities-section">
+        <h2>Curiosidades</h2>
+        <div class="curiosity-container">
+            <button class="curiosity-btn">Clique para revelar uma curiosidade</button>
+            <p class="curiosity-text hidden">O arsenal nuclear da URSS em 1980 era quase o dobro do dos EUA.</p>
+        </div>
+        <div class="curiosity-container">
+            <button class="curiosity-btn">Clique para revelar uma curiosidade</button>
+            <p class="curiosity-text hidden">A Crise dos Mísseis de Cuba durou apenas 13 dias, mas quase causou uma guerra nuclear.</p>
+        </div>
+        <div class="curiosity-container">
+            <button class="curiosity-btn">Clique para revelar uma curiosidade</button>
+            <p class="curiosity-text hidden">O programa Star Wars nunca foi totalmente implementado, mas influenciou a corrida armamentista.</p>
+        </div>
+    </section>
+
+    <section class="container fade-in-up" id="comparison-section">
+        <h2>Comparações Visuais</h2>
+        <div class="comparison-cards">
+            <div class="comparison-card">
+                <div class="icon">🛳️</div>
+                <p>Quantas bombas cabem em um porta-aviões?</p>
+                <p><strong>EUA:</strong> Aproximadamente 1000 ogivas</p>
+                <p><strong>URSS:</strong> Aproximadamente 1200 ogivas</p>
+            </div>
+            <div class="comparison-card">
+                <div class="icon">💥</div>
+                <p>Poder de destruição comparado</p>
+                <p><strong>EUA:</strong> 1 megaton média por ogiva</p>
+                <p><strong>URSS:</strong> 1.2 megaton média por ogiva</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container fade-in-up">
+        <p>© 2024 - Projeto Educativo sobre a Corrida Armamentista e o Medo Nuclear</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
